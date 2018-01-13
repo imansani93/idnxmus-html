@@ -72,7 +72,6 @@ a:hover {color:#ff5500}
 /* ==== Related Post Widget Start ==== */
 
 .related-post {
-  margin:20px auto 0;
   font-family: 'Roboto', sans-serif;
   font-size:16px;
 }
@@ -93,7 +92,7 @@ a:hover {color:#ff5500}
 .related-post-style-2 li {
   padding:10px 10px 10px 0;
   border-top:1px solid #eee;
-  overflow:hidden;
+  overflow:scroll;
 }
 .related-post-style-2 li:first-child {border-top:none}
 .related-post-style-2 .related-post-item-thumbnail {
@@ -113,7 +112,7 @@ a:hover {color:#ff5500}
 }
 .related-post-style-2 .related-post-item-summary {
   display:block;
-  overflow:hidden;
+  overflow:scroll;
   margin-top:10px;
   color:#333;
   font-size:14px;
@@ -128,9 +127,11 @@ a:hover {color:#ff5500}
 }
 @media screen and (max-width:320px){.related-post-style-2 .related-post-item-summary {display:none;}
 }
-@media screen and (max-width:480px){.related-post-style-2 .related-post-item-summary {display:none;}
+@media screen and (max-width:480px){
+.related-post-style-2 .related-post-item-summary {display:none;}
+.related-post-style-2 .related-post-item-title {font-weight:400;font-size:17px;}
 }
-@media screen and (max-width:800px){.related-post-style-2 .related-post-item-summary {display:none;}
+@media screen and (max-width:600px){.related-post-style-2 .related-post-item-summary {display:none;}
 }
 
 /* ==== Related Post Widget End ==== */
@@ -163,11 +164,11 @@ var labelArray = [],
             // Container & list height setup
             $container.css({
                 "height": outerHeight * $list.length / 2,
-                "overflow": "hidden"
+                "overflow": "scroll"
             });
             $list.css({
                 "height": innerHeight,
-                "overflow": "hidden"
+                "overflow": "scroll"
             });
         }
     };

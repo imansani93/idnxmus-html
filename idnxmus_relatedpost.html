@@ -99,7 +99,7 @@ a:hover {color:#ff5500}
 }
 
 .related-post-style-2 .related-post-item-thumbnail {
-  width:250px;
+  width: 100%;
   height:120px;
 }
 .related-post-style-2 .related-post-item-title {
@@ -115,14 +115,36 @@ a:hover {color:#ff5500}
 .related-post-style-2 .related-post-item-more {
   display:none;
 }
-@media screen and (max-width:600px){
-.related-post-style-2 .related-post-item-summary {display:none;}
+@media screen and (max-width:800px){
+.related-post-style-2 li {width: 32%;}
+.related-post-style-2 .related-post-item-thumbnail {height: 110px;}
+}
+@media screen and (max-width:777px){
+.related-post-style-2 li {width: 31.9%;}
+.related-post-style-2 .related-post-item-thumbnail {height: 100px;}
+}
+@media screen and (max-width:722px){
+.related-post-style-2 li {width: 31.8%;}
+.related-post-style-2 .related-post-item-thumbnail {height: 100px;}
+}
+@media screen and (max-width:675px){
+.related-post-style-2 li {width: 31.7%;}
+.related-post-style-2 .related-post-item-thumbnail {height: 90px;}
+}
+@media screen and (max-width:632px){
 .related-post-style-2 li {width: 31.5%;}
-.related-post-style-2 .related-post-item-thumbnail {width: 100%;height: 100px;}
+.related-post-style-2 .related-post-item-thumbnail {height: 100px;}
+}
+  @media screen and (max-width:565px){
+.related-post-style-2 li {width: 31.4%;}
+.related-post-style-2 .related-post-item-thumbnail {height: 90px;}
+}
+  @media screen and (max-width:533px){
+.related-post-style-2 li {width: 31.3%;}
 }
 @media screen and (max-width:480px){
 .related-post-style-2 .related-post-item-summary {display:none;}
-.related-post-style-2 .related-post-item-title {font-weight:400;font-size:15px;}
+.related-post-style-2 .related-post-item-title {font-size:14px;}
 .related-post-style-2 li {width: 47.7%;}
 .related-post-style-2 .related-post-item-thumbnail {height: 110px;}
 }

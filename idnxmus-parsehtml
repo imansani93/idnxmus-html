@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html> <html> <meta charset="utf-8"> <title>Parse HTML</title> <meta content='width=device-width, initial-scale=1' name='viewport'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400italic,400,500,500italic,700,700italic,900' rel='stylesheet' type='text/css'/>
 <style>
 body {
@@ -41,6 +41,7 @@ button.close:focus{outline:0}
 .btn-reset:focus{outline:0}
 .clear{clear:both;display:block;margin-bottom:2px;}
 </style>
+<body>
 <div id="parser2">
 <textarea id="somewhere" placeholder='Tulis/paste kode di sini lalu klik tombol Parse Codes' onfocusin="focusFunction()"></textarea>
 <div class='alert alert-success margin-bottom-20 collapse' id='btnInfo' role='alert'>
@@ -108,4 +109,4 @@ clipboard.on("success", function (o) {
 });
 //]]>
 </script>
-</html>
+</body></html> 

@@ -1,7 +1,7 @@
 {
   "name": "IDNXMUS",
   "short_name": "IDNXMUS",
-  "start_url": "https://www.idnxmus.com",
+  "start_url": "https://www.idnxmus.com/?m=1",
   "display": "standalone",
   "background_color": "#242038",
   "theme_color": "#222222",

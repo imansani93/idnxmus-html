@@ -1,0 +1,26 @@
+{
+  "name": "IDNXMUS",
+  "short_name": "IDNXMUS",
+  "start_url": "https://www.idnxmus.com",
+  "display": "standalone",
+  "background_color": "#242038",
+  "theme_color": "#222222",
+  "description": "Blog personal yang membahas tentang perkembangan teknologi. Mulai dari Bisnis, Informasi, Blogger, dan semua hal yang berkaitan tentang teknologi.",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-73PXzhsRUlo/W4YAhPiZiqI/AAAAAAAADxk/hPvAkpbTed8qSCqB-25aYJDpnve9f84UQCLcBGAs/s32/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "https://2.bp.blogspot.com/-X3FOKdPlNW0/W4YAh3B8bAI/AAAAAAAADxw/wt4FU0J3qgkQL2uuyKFHqJdqPamUpHFkgCLcBGAs/s144/ms-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://4.bp.blogspot.com/-fc3k9rtEJj4/W4YAhtRLchI/AAAAAAAADxs/NIBk_onBI8spNczPp1CiTiBTR0GS26nhwCLcBGAs/s180/apple-icon-180x180.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-WK4K-KfN1Lo/W4YAhNhPJzI/AAAAAAAADxo/W_lytkZpBCkHXj-Big0lxIS8bDZzYIaPQCLcBGAs/s192/android-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}

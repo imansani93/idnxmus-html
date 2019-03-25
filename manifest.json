@@ -1,12 +1,5 @@
-{
-  "name": "idnxmus.com",
-  "short_name": "IDNXMUS",
-  "start_url": "https://www.idnxmus.com/?m=1",
-  "display": "standalone",
-  "background_color": "#242038",
-  "theme_color": "#222222",
-  "description": "Blog personal yang membahas tentang perkembangan teknologi. Mulai dari Bisnis, Informasi, Blogger, dan semua hal yang berkaitan tentang teknologi.",
-  "icons": [{
+{"name": "idnxmus.com", "short_name": "IDNXMUS", "start_url": "https://www.idnxmus.com/?m=1", "display": "standalone", "background_color": "#242038",
+  "theme_color": "#222222", "description": "Blog personal yang membahas tentang perkembangan teknologi. Mulai dari Bisnis, Informasi, Blogger, dan semua hal yang berkaitan tentang teknologi.", "icons": [{
     "src": "https://2.bp.blogspot.com/-MfaYiRobCeo/XJRF66rgroI/AAAAAAAAErY/ccxbocQL9gYGYuEfPTdQb4vrx3qdEQT1wCLcBGAs/s48/idnxmus.png",
     "sizes": "48x48",
     "type": "image/png"

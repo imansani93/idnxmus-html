@@ -29,8 +29,16 @@ if(sessionStorage.getItem('sess') === 1) {
 }
 
 function custom() {
+    blogger_cookie();
     shortcode();
     popup();
+    if($_GET('mode') == 'popup') {
+        $('head').append('<style>.header,.footbar,.sidebar,.asideIner,.Blog .breadcrumbs,.mainIner:before{display:none!important} main{padding:0 20px!important}</style>');
+    }
+}
+
+function blogger_cookie() {
+    jQuery.cookie=function(e,n,o){if(arguments.length>1&&"[object Object]"!==String(n)){if(o=jQuery.extend({},o),(null===n||void 0===n)&&(o.expires=-1),"number"==typeof o.expires){var t=o.expires,r=o.expires=new Date;r.setDate(r.getDate()+t)}return n=String(n),document.cookie=[encodeURIComponent(e),"=",o.raw?n:encodeURIComponent(n),o.expires?"; expires="+o.expires.toUTCString():"",o.path?"; path="+o.path:"",o.domain?"; domain="+o.domain:"",o.secure?"; secure":""].join("")}o=n||{};var i,c=o.raw?function(e){return e}:decodeURIComponent;return(i=new RegExp("(?:^|; )"+encodeURIComponent(e)+"=([^;]*)").exec(document.cookie))?c(i[1]):null};
 }
 
 function shortcode() {

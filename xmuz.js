@@ -59,9 +59,9 @@ function shortcode() {
     $('.comment-content').each(function() {
         $(this).html(
           $(this).html()
-          .replace(/\[video\]https:\/\/youtu.be\//g, '<img data-shortcode="youtube" src="https://cdn.statically.io/img.youtube.com/vi/').replace(/\[\/video\]/g, '/sddefault.jpg"></a>')
+          .replace(/\[video\]https:\/\/youtu.be\//g, '<img data-shortcode="youtube" src="https://cdn.statically.io/img/img.youtube.com/vi/').replace(/\[\/video\]/g, '/sddefault.jpg"></a>')
           .replace(/\[code\]/g, '<em data-shortcode="code">').replace(/\[\/code\]/g, '</em>')
-          .replace(/\[img\]https:\/\//g, '<img data-shortcode="image" src="https://cdn.statically.io/').replace(/\[\/img\]/g, '" alt="image"/>')
+          .replace(/\[img\]https:\/\//g, '<img data-shortcode="image" src="https://cdn.statically.io/img/').replace(/\[\/img\]/g, '" alt="image"/>')
 
         );
     });
@@ -69,7 +69,7 @@ function shortcode() {
         var shortcode = $(this).attr('data-shortcode'),
             comment_id = $(this).closest('.comment').attr('id');
         if(shortcode == 'youtube') {
-            var id = $(this).attr('src').replace('https://cdn.statically.io/img.youtube.com/vi/','').replace('/sddefault.jpg','');
+            var id = $(this).attr('src').replace('https://cdn.statically.io/img/img.youtube.com/vi/','').replace('/sddefault.jpg','');
             console.log(id);
             $(this).wrap('<a class="ytb" data-popup="https://www.youtube.com/embed/'+id+'?autoplay=1" href="https://www.youtube.com/embed/'+id+'?autoplay=1"></a>');
         }

@@ -61,7 +61,7 @@ function shortcode() {
           $(this).html()
           .replace(/\[video\]https:\/\/youtu.be\//g, '<img data-shortcode="youtube" src="https://cdn.statically.io/img/img.youtube.com/vi/').replace(/\[\/video\]/g, '/sddefault.jpg"></a>')
           .replace(/\[code\]/g, '<em data-shortcode="code">').replace(/\[\/code\]/g, '</em>')
-          .replace(/\[img\]https:\/\//g, '<img data-shortcode="image" src="https://cdn.statically.io/img/').replace(/\[\/img\]/g, '" alt="image"/>')
+          .replace(/\[img\]/g, '<img data-shortcode="image" src="').replace(/\[\/img\]/g, '" alt="image"/>')
 
         );
     });
